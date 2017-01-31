@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css" media="screen" title="no title">
+        <link rel="stylesheet" href="ism/css/my-slider.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <title>la bonne bouffe</title>
 </head>
@@ -44,11 +45,28 @@
                 <li><a href="#">Panier</a></li>
               </ul>
             </ul>
-
          </div>
         </div>
       </nav>
     </header>
+
+    <div class="ism-slider" data-transition_type="fade" data-play_type="once-rewind" data-interval="3000" id="my-slider">
+        <ol>
+            <li>
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/1b/9a/bf/le-grande-bouffe.jpg">
+            </li>
+            <li>
+                <img src="http://www.epicurien.be/img/recettes-cuisines/20130928_poulet_morilles-500.jpg">
+            </li>
+            <li>
+                <img src="https://i1.wp.com/cotesoleils.fr/wp-content/uploads/2015/06/tajine-agneau-et-pruneaux-algc3a9rie1.jpg">
+            </li>
+            <li>
+              <img class="couverture" src="http://scrat.hellocoton.fr/img/guide/recette-ma-salade-tiede-de-chou-kale-et-lentilles-patates-douces-et-saumon-fume-18911644.jpg"
+            </li>
+        </ol>
+    </div>
+    <p class="ism-badge" id="my-slider-ism-badge"></p>
 
     <!-- table -->
     <!-- <table>
@@ -73,8 +91,6 @@
    			  src="https://code.jquery.com/jquery-1.10.2.js"
    			  integrity="sha256-it5nQKHTz+34HijZJQkpNBIHsjpV8b6QzMJs9tmOBSo="
    			  crossorigin="anonymous"></script> -->
-
-
 
 </body>
 
