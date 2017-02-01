@@ -32,3 +32,4 @@ var contenu = {
     },
   ]
 }
+document.getElementById('titreSite').innerHTML=contenu.name;
